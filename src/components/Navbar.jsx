@@ -16,6 +16,7 @@ import {
   useColorModeValue,
   useColorMode,
   Stack,
+  Image,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -58,7 +59,12 @@ export default function NavbarPortfolio() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            <Box>SES</Box>
+            <Image
+              boxSize='64px'
+              rounded={6}
+              alt='SES Development'
+              src='/Images/ses_development.png'
+            />
             <HStack
               as={"nav"}
               spacing={4}
@@ -112,8 +118,6 @@ export default function NavbarPortfolio() {
           </Box>
         ) : null}
       </Box>
-
-      <Box p={4}>Main Content Here</Box>
     </>
   );
 }
