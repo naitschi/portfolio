@@ -10,7 +10,6 @@ export const Layout = (props) => {
   return (
     <div>
       <NavbarPortfolio />
-      <Intro />
       <Box as='main'>{children}</Box>
       <FooterSes />
     </div>
