@@ -57,9 +57,9 @@ export default function NavbarPortfolio() {
           />
           <HStack spacing={8} alignItems={"center"}>
             <Image
-              boxSize="64px"
-              alt="SES Development"
-              src="/Images/ses_development.png"
+              boxSize='64px'
+              alt='SES Development'
+              src='/Images/ses_development.png'
             />
             <HStack
               as={"nav"}
